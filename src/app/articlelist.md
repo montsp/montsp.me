@@ -7,33 +7,5 @@
 {
     name: 'ionicのはじめ方'
     path: 'article/2'
-    content: '<p>ionicを始めるには、</p>
-  <p>・Windows(macを推奨)もしくはMacを搭載したPC</p>
-  <p>・Node.js</p>
-  <p>・git</p>
-  <p>Xcode(macのみ)</p>
-  <p>Android Studio</p>
-  <p>エディター(Visual Studio Codeが望ましい)</p>
-  <p>ionic CLI</p>
-  <br>
-  <h2>Node.jsインストール</h2>
-  <p>まず、<a href="https://nodejs.org/ja/">nodejs.org</a>へ行きます。</p>
-  <img src="https://github.com/montsp/montsp-me-img/blob/main/nodejs.png?raw=true">
-  <p>どちらかをインストールします。(最新版かLTS。)その後は、インストーラーの指示に従ってsインストールしてください。</p>
-  <p>ターミナルを開き、node -v　と入力し、バージョン番号が表示されたら成功です。
-  </p>
-  <img src="https://raw.githubusercontent.com/montsp/montsp-me-img/main/node%20-v.png">
-  <br>
-  <h2>gitインストール(Xcodeをインストールする場合は、この手順は不要です。)</h2>
-  <p>まず、<a href="https://git-scm.com">git-scm.com</a>へ行き、ダウンロードします。</p>
-  <img src="https://raw.githubusercontent.com/montsp/montsp-me-img/1599634c2ff92778f4cd499a6b7440bdada02d85/git-scm.png">
-  <p>node.jsと同様に、ターミナルを開き、git --version　と入力し、バージョン番号が表示されたら成功です。</p>
-  <img src="https://raw.githubusercontent.com/montsp/montsp-me-img/300cfa595e3ab049eac8b63822a74f69a6eba1cb/git%20--version.png">
-  <br>
-  <h2>Xcode(macのみ)インストール</h2>
-  <p>Mac Appstoreを開いて、Xcodeと入力し、インストールします。</p>
-  <img src="https://raw.githubusercontent.com/montsp/montsp-me-img/6e179dc6de3376b85e7cc0119b89496274cad974/Xcode.png">
-  <br>
-  <h2>Android studioインストール</h2>
-  <p></p>'
+    content: '<p>ionicを始めるには、</p><p>・Windows(macを推奨)もしくはMacを搭載したPC</p><p>・Node.js</p><p>・git</p><p>Xcode(macのみ)</p><p>Android Studio</p> <p>エディター(Visual Studio Codeが望ましい)</p> <p>ionic CLI</p><br><h2>Node.jsインストール</h2><p>まず、<a href="https://nodejs.org/ja/">nodejs.org</a>へ行きま</p><img src="https://github.com/montsp/montsp-me-img/blob/main/nodejs.png?raw=true"><p>どちらかをインストールします。(最新版かLTS。)その後は、インストーラーの指示に従ってsインストールしてください。</p><p>ターミナルを開き、node -v　と入力し、バージョン番号が表示されたら成功です。</p><img src="https://raw.githubusercontent.com/montsp/montsp-me-img/main/node%20-v.png"><br><h2>gitインストール(Xcodeをインストールする場合は、この手順は不要です。)</h2><p>まず、<a href="https://git-scm.com">git-scm.com</a>へ行き、ダウンロードします。</p><img src="https://raw.githubusercontent.com/montsp/montsp-me-img/1599634c2ff92778f4cd499a6b7440bdada02d85/git-scm.png"><p>node.jsと同様に、ターミナルを開き、git --version　と入力し、バージョン番号が表示されたら成功です。</p><img src="https://raw.githubusercontent.com/montsp/montsp-me-img/300cfa595e3ab049eac8b63822a74f69a6eba1cb/git%20--version.png"><br><h2>Xcode(macのみ)インストール</h2><p>Mac Appstoreを開いて、Xcodeと入力し、インストールします。</p><img src="https://raw.githubusercontent.com/montsp/montsp-me-img/6e179dc6de3376b85e7cc0119b89496274cad974/Xcode.png"><br><h2>Android studioインストール</h2><p></p>'
 }
