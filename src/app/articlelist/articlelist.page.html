@@ -1,25 +1,29 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>記事一覧</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div>
-    <ion-card href="/category">
-      <br>
-      <ion-card-title>種類別に見る</ion-card-title>
-      <br>
-    </ion-card>
-  </div>
   
-  <div *ngFor="let t of articlePage">
-      <ion-card [button]="true" routerLink="{{t.path}}">
+    <ion-card href="/category">
+      <div>
+      <ion-card-title>種類別に見る</ion-card-title>
+      </div>
+    </ion-card>
+
+ 
+  
+
+      <ion-card *ngFor="let t of articlePage" [button]="true" routerLink="{{t.path}}">
         <ion-card-header>
           <ion-card-title>{{t.title}}</ion-card-title>
         </ion-card-header>
         <ion-card-content>{{t.content}}</ion-card-content>
       </ion-card>
-  </div>
+
 
 </ion-content>

@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class ArticlelistPage implements OnInit {
   public articlePage = [
     {
-      title: 'ionicのはじめ方',
+      title: 'ionicをスタート',
+      path: '/article/3',
+      content: 'ionicのプロジェクトを作成...'
+    },
+    {
+      title: 'ionicの準備',
       path: '/article/2',
       content: 'ionicを始めるには...',
     },
