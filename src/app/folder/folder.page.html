@@ -11,7 +11,15 @@
     <ion-card>
         <ion-card-subtitle>変なやつのサイト</ion-card-subtitle>
         <ion-card-title>montsp.meへようこそ</ion-card-title>
-        <ion-card-content>作者の備忘録のようなものだと思ってください。技術系のことを書いて、ブログみたいな感じで公開しています。不定期に公開されるので、楽しみに待っていてください！（個人経営のサイトって結構怪しく思われてるみたい。）</ion-card-content>
+        <ion-card-content>作者の備忘録のようなものだと思ってください。技術系のことを書いて、ブログみたいな感じで公開しています。不定期に公開されるので、楽しみに待っていてください！（個人経営のサイトって結構怪しく思われてるみたいで、、、）</ion-card-content>
+    </ion-card>
+    <ion-card>
+    <ion-card-header>
+      <ion-card-title>お知らせ</ion-card-title>
+    </ion-card-header>
+    <ion-card *ngFor="let t of notif">
+      <ion-card-title>{{t.title}}</ion-card-title>
+      <ion-card-content>{{t.content}}</ion-card-content></ion-card>
     </ion-card>
   
   </ion-content>

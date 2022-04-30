@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class IonicPage implements OnInit {
   public ionicCategory = [
     {
-      title: 'ionicの準備',
+      title: 'ionicをスタート',
       path: '/article/3',
       content: 'ionicのプロジェクトを作成...'
     },
