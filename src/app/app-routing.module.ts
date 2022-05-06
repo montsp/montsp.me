@@ -4,11 +4,6 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
   {
@@ -30,6 +25,14 @@ const routes: Routes = [
   {
     path: 'articlemail',
     loadChildren: () => import('./articlemail/articlemail.module').then( m => m.ArticlemailPageModule)
+  },
+  {
+    path: 'otoiawase',
+    loadChildren: () => import('./otoiawase/otoiawase.module').then( m => m.OtoiawasePageModule)
+  },
+  {
+    path: 'aboutsite',
+    loadChildren: () => import('./aboutsite/aboutsite.module').then( m => m.AboutsitePageModule)
   },
 ];
 
