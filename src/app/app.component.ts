@@ -8,7 +8,7 @@ import { Router, NavigationEnd } from '@angular/router'
 })
 export class AppComponent implements OnInit {
   public appPages = [
-    { title: 'ホーム', url: '/home', icon: 'home' },
+    { title: 'ホーム', url: '/', icon: 'home' },
     { title: '記事一覧', url: '/articlelist', icon: 'book'},
     { title: '記事募集', url: '/articlemail', icon: 'create'},
     { title: 'About US', url: '/aboutus', icon: 'information-circle'},
