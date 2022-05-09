@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
     { title: 'About US', url: '/aboutus', icon: 'information-circle'},
     { title: 'お問い合わせ', url: '/otoiawase', icon: 'help',},
     { title: 'このサイトについて', url: '/aboutsite', icon: 'at',},
+    { title: 'ポリシー', url: '/policy', icon: 'reader',},
   ];
   constructor(public router: Router,) {}
 

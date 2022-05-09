@@ -34,6 +34,10 @@ const routes: Routes = [
     path: 'aboutsite',
     loadChildren: () => import('./aboutsite/aboutsite.module').then( m => m.AboutsitePageModule)
   },
+  {
+    path: 'policy',
+    loadChildren: () => import('./policy/policy.module').then( m => m.PolicyPageModule)
+  },
 ];
 
 @NgModule({
