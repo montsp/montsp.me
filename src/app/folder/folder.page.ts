@@ -11,7 +11,8 @@ export class FolderPage implements OnInit {
     {
       title: '記事募集中！',
       content: '詳しくは、記事募集欄へ',
-    }
+      url: 'articlemail',
+    },
   ]
 
   constructor(private activatedRoute: ActivatedRoute) { }
